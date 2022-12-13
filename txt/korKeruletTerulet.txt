@@ -1,0 +1,9 @@
+Program KorKeruletTerulet
+
+	double r
+	Ki: "A kör sugara: "
+	Be: r
+	Ki: "A kör kerülete: "+String.format("%.3f",(Math.PI*2*r)
+	Ki: "A kör területe: "+String.format("%.3f",(Math.PI*r*r)
+
+Program vége

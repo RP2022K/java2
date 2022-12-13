@@ -1,0 +1,12 @@
+Program HanyNaposaHonap
+
+	int ev, honap, napokSzama
+	YearMonth evHonapObject
+	Ki: "Év : "
+	Be: ev
+	Ki: "Hónap : "
+	Be: honap
+	napokSzama = evHonapObject.lengthOfMonth()
+	Ki: "Napok száma az adott hónapban: "+napokSzama
+
+Program vége

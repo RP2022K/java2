@@ -1,0 +1,16 @@
+Program Hatoslotto
+
+	lottoSzamok : 6 elemű tömb interger
+	Ki: "A hatoslottó számai: "
+	Ciklus fut (i=0)-tól (i<6)-ig
+		veletlenszam = 1-től 45-ig
+		lottoSzamok[i] = véletlenszám
+		Ciklus fut (j=0)-tól (j<i)-ig
+			Ha veletlenszam = lottoszamok[j] akkor j=i és i=i-1
+		Ciklus vége
+	Ciklus vége
+	Ciklus fut (i=0)-tól (i<6)-ig
+		Ki: "lottoSzamok: "+lottoSzamok[i]+" "
+	Ciklus vége
+
+Program vége

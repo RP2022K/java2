@@ -1,0 +1,13 @@
+Program NszamOsszeg
+
+	int osszeg = 0
+	int n
+	Ki: "n= "
+	Be: n
+	Ciklus kezdődik (i=1)-től (i<=n)-ig
+		osszeg = osszeg + i
+		i = i+1
+	Ciklus vége
+	Ki: "n szám összege: " + osszeg
+
+Program vége

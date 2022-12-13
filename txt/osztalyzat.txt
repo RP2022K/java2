@@ -1,0 +1,13 @@
+Program Osztalyzat
+
+	String ertekeles
+	Ki: "Írd be az osztályzatot: "
+	Be: ertekeles
+	értékeles = "elégtelen" ha az osztályzat = 1
+	értékeles = "elégséges" ha az osztályzat = 2
+	értékeles = "közepes" ha az osztályzat = 3
+	értékeles = "jó" ha az osztályzat = 4
+	értékeles = "jeles" ha az osztályzat = 5
+	Ki: "Értékelés: "+ertekeles
+
+Program vége

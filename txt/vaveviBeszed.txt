@@ -1,0 +1,13 @@
+Program vaveviBeszed
+
+	String mondat
+	Ki: "Kérem az átalakítandó mondatot: "
+	Be: mondat
+	mondatVavevi = mondat melyben az összes a betű helyére ava kerül
+	mondatVavevi = mondat melyben az összes e betű helyére eve kerül
+	mondatVavevi = mondat melyben az összes i betű helyére ivi kerül
+	mondatVavevi = mondat melyben az összes o betű helyére ovo kerül
+	mondatVavevi = mondat melyben az összes u betű helyére uvu kerül
+	Ki: mondatVavevi
+
+Program vége

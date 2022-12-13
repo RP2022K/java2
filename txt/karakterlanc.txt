@@ -1,0 +1,14 @@
+Program Karakterlanc
+
+	string karakterlanc
+	char elsoKarakter
+	Ki: "Adj meg egy karakterláncot: "
+	Be: karakterlanc
+	elsoKarakter = karakterlanc első karaktere
+	Ha (elsoKarakter > 0 és elsoKarakter <= 9)
+		Ciklus: fut (i = 1)-től (elsoKarakter hossza-1) vagy (karakterlanc vége)
+			Ki: karakterlanc i.karaktere
+		Ciklus vége
+	Különben Ki: "Az első karakter 0 vagy nem szám"
+
+Program vége

@@ -1,0 +1,22 @@
+Program LegnagyobbInter
+
+	int utolso, szamjegy, osszeg, megoldas
+
+	megoldas = 0
+
+	Ciklus kezdődik (i=100)-tól (i=100000)-ig
+		utolso = i utolsó számjegye
+		osszeg = 0
+		szamjegy = i az utolsó számjegy nélkül (pl. i = 1524, akkor szamjegy = 152)
+		Ha utolso = 9 akkor
+			Ciklus amíg szamjegy != 0
+				osszeg = szamjegy / 10 maradéka
+				szamjegy = szamjegy /10
+			Ciklus vége
+			Ha osszeg = 8 akkor 
+				megoldas = i;
+			Feltétel vége
+		Feltétel vége
+	Ciklus vége
+	Ki: "A megoldás: "+megoldas
+Program vége

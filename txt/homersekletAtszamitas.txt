@@ -1,0 +1,10 @@
+Program HomersekletAtszamitas
+
+	Ki: "Celsius    Farenheit    Kelvin"
+	Ciklus kezdődik (i=32)-től (i=-9)-ig
+		i = i-1
+		Ki: i+(1.8*i + 32)+(i + 273.15)
+		sortörés
+	Ciklus vége
+
+Program vége

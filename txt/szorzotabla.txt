@@ -1,0 +1,11 @@
+Program Szorzotabla
+
+	Ciklus kezdődik (i=1)-től (i=10)-ig
+		i = i+1
+		Ciklus kezdődik (j=1)-től (j=10)-ig
+			Ki: i*j 
+		Ciklus vége
+		sortörés
+	Ciklus vége
+
+Program vége

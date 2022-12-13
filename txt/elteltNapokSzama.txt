@@ -1,0 +1,12 @@
+Program ElteltNapokSzama
+
+	LocalDate datum1, datum2
+	long elteltNapok
+	Ki: "Első dátum(éééé-hh-nn): "
+	Be: datum1
+	Ki: "Második dátum(éééé-hh-nn): "
+	Be: datum2
+	elteltNapok = datum1 és datum2 közötti napok száma
+	Ki: "A két dátum között eltelt napok száma: "+Math.abs(elteltNapok))
+
+Program vége

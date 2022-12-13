@@ -1,0 +1,14 @@
+Program ValtozoErtekCsere
+
+	int elso, masodik
+	Ki: "Az első változó értéke: "
+	Be: elso
+	Ki: "A második változó értéke: "
+	Be: masodik
+	A két változó értékének kicserélése segédváltozó nélkül:
+		elso = elso + masodik
+		masodik = elso - masodik
+		elso = elso - masodik
+	Ki: "A csere utáni értékek: elso = "+elso+" , masodik = "+masodik
+
+Program vége

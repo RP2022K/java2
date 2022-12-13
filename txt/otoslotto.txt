@@ -1,0 +1,10 @@
+Program Otoslotto
+
+	lottoSzamok : 5 elemű tömb interger
+	Ki: "Az ötöslottó számai: "
+	Ciklus fut (i=0)-tól (i<5)-ig
+		lottoSzamok[i] = véletlenszám(1-90)
+		Ki: "lottoSzamok: "+lottoSzamok[i]+" "
+	Ciklus vége
+
+Program vége

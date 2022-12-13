@@ -1,0 +1,15 @@
+Program FibonacciSzamsor
+
+	szamsor legyen egy 36 elemű tömb
+	szamsor[0] = 0
+	szamsor[1] = 1
+	Ki: "A Fibonacci számsorozat első 36 eleme:"
+	Ki: szamsor[0]
+	Ki: szamsor[1]
+	Ciklus kezdődik (i=1)-től (i<=n)-ig
+		szamsor[i] = szamsor[i-2] + szamsor[i-1]
+		i = i+1
+		Ki: szamsor[i]
+	Ciklus vége
+
+Program vége

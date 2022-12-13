@@ -1,0 +1,18 @@
+Program SzamValodiOsztoi
+
+	int szamlalo = 0;
+	int valodiOsztoSzam = 0;
+	int szam = 100;
+	Ciklus ha szamlalo < 20
+		Ciklus kezdődik (i=2)-től (int szam/2)-ig
+			Ha szam/i maradéka 0 akkor valodiOsztoSzam = valodiOsztoSzam+1;
+			i = i+1
+		Ciklus vége
+		Ha valodiOsztoSzam = 7 akkor
+					szamlalo = szamlalo+1
+					Ha szamlalo > 10 akkor Ki: szam
+		valodiOsztoSzam = 0
+		szam = szam+1
+	Ciklus vége
+
+Program vége

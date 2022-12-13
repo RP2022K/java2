@@ -1,0 +1,18 @@
+Program Sorozat
+
+	String[] sorozat
+	int szamjegy
+
+	sorozat[0] = "1"
+	Ciklus kezdődik (i=1)-tól (i<15)-ig
+		sorozat[i] = ""
+	Ciklus vége
+	Ciklus kezdődik (i=1)-től (i<15)-ig
+		Ciklus kezdődik (j=1)-től (j<=sorozat[i-1] hossza)-ig
+			szamjegy = a sorozat[i-1] szám j-edik számjegyének kétszerese
+			sorozat[i] = sorozat[i] + a stringgé alakított szamjegy
+		Ciklus vége
+	Ciklus vége
+	Ki: "A sorozat 15.eleme: "+sorozat[14]
+
+Program vége

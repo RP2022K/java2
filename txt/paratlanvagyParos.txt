@@ -1,0 +1,9 @@
+Program ParatlanvagyParos
+
+	boolean Paratlan(int szam) függvény
+		Ha szam / 2 osztásnak maradéka 0 akkor return false
+		máskülönben return true
+
+	Ki: Paratlan függvény hívásának értéke
+
+Program vége

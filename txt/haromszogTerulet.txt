@@ -1,0 +1,10 @@
+Program HaromszogTerulet
+
+	double oldalhossz, magassag
+	Ki: "A háromszög egyik oldalának hossza: "
+	Be: oldalhossz
+	Ki: "Az oldalhoz tartozó magasság: "
+	Be: magassag
+	Ki: "A héromszög területe: "+String.format("%.3f",(oldalhossz*magassag/2))
+
+Program vége
